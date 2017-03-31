@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+}
+.shadow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darken(whitesmoke, 10%);
+}
+.shadow-word {
+  font-size: 35px;
+  color: #00f7d2;
+}

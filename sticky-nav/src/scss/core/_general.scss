@@ -1,0 +1,27 @@
+body{
+  color: #000;
+  font-family: Cambria;
+  font-size: large;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+*, :after, :before {
+  padding: 0;
+  margin: 0;
+}
+
+.fixed-nav {
+  nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .main-content {
+    transform: scale(1);
+  }
+}

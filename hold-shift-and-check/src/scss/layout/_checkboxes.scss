@@ -1,0 +1,19 @@
+.checkboxes {
+  background-color: #f1f1f1
+}
+
+.item {
+  font-family: Corbel;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid darken(#f1f1f1, 10px);
+}
+
+input {
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 15px 0 0;
+}

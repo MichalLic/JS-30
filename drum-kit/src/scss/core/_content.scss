@@ -1,0 +1,36 @@
+.main {
+    background-image: url('../images/audience.jpg');
+    background-size: cover;
+}
+.keys {
+    display: flex;
+    padding: 430px 0;
+    justify-content: space-around;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 8);
+    margin: 0 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ffc600;
+    .letter {
+        padding-bottom: 5px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .sound{
+        color: #ffc600;
+        font-size: 12px;
+    }
+}
+
+.playing {
+    border: 1px solid #ffc600;
+    box-shadow: 0 0 25px 0 #ffc600;
+    transition: 0.1s;
+}
+

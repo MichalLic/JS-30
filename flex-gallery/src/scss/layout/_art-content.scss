@@ -1,0 +1,41 @@
+.gallery {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.art1 {background-image: url("../images/winter.jpg");}
+.art2 {background-image:  url("../images/spring.jpg");}
+.art3 {background-image:  url("../images/summer.jpg");}
+.art4 {background-image:  url("../images/bison.jpg");}
+.art5 {background-image:  url("../images/autumn.jpg");}
+
+.art {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  background-size: cover;
+  transition: font-size 2.5s, flex .5s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+  cursor: pointer;
+}
+
+.art > * {
+  margin: 0;
+  flex: 1 0 auto;
+  font-family: "AR BLANCA";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: transform .8s;
+}
+
+.art > *:first-child {transform: translateY(-100%);}
+.art.open > *{transform: translateY(0)!important;}
+.art > *:last-child {transform: translateY(100%); }
+
+.art.open {
+  flex: 5;
+  font-size: 50px;
+}

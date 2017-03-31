@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.background-section {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/restaurant.jpg");
+  background-size: cover;
+}
+
+.form-block {
+  background-color: #f1f1f1;
+  padding: 25px 20px;
+  border: 2px solid darken(#f1f1f1, 35%);
+  box-shadow: 8px 3px 30px darken(#f1f1f1, 25%);
+
+  .form-logo {
+    background-image: url("../images/logo.png");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+  }
+
+  .plates {
+    list-style: none;
+    padding: 0;
+
+    li {
+      border-bottom: 1px solid #989898;
+      padding-bottom: 10px;
+    }
+  }
+
+}
+
+.add-items {
+  h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #4b4b4b;
+  }
+}

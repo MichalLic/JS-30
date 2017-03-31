@@ -1,0 +1,23 @@
+input {
+  border: 1px solid #989898;
+  padding: 7px;
+  &:focus {
+    outline: #989898;
+    box-shadow: 0 0 20px #989898;
+  }
+  &.item {
+    color: #989898;
+
+  }
+  &.checkbox {
+    margin: 5px;
+  }
+
+  &.submit {
+    background-color: darken(#f1f1f1, 25%);
+    transition: .3s;
+    &:hover {
+      background-color: darken(#f1f1f1, 45%);
+    }
+  }
+}
