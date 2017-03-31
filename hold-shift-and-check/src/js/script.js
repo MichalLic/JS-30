@@ -14,33 +14,22 @@ console.log(getCheckbox);
 
 var lastChecked = '';
 
-function uuu(btn) {
+function shiftCheckboxes (btn) {
     btn.on('click', function (e) {
         var inBetween = false;
-        lastChecked = this;
-        
+        var currentlyClicked = this;
+
         if (e.shiftKey && this.checked) {
             $.each(getCheckbox, function (index, checkbox) {
-                if (checkbox === this || checkbox === lastChecked) {
+                if (checkbox === currentlyClicked || checkbox === lastChecked) {
                     inBetween = !inBetween;
-                    console.log(this);
-                    console.log(lastChecked)
-                    console.log(inBetween)
                 }
-
-
                 if(inBetween){
                  checkbox.checked = true;
                 }
             });
         }
-
-
+        lastChecked = this;
     });
 }
-
-uuu($('input'));
-
-// $.map(getCheckbox, function (checkbox) {
-//     checkbox.addEventListener('click', handleCheck)
-// });
+shiftCheckboxes ($('input'));
