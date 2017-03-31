@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     var addItems = $('.add-items')[0];
+    console.log(addItems)
     var itemList = $('.plates');
     var items = JSON.parse(localStorage.getItem('items')) || [];
 
@@ -23,13 +24,14 @@ $(document).ready(function () {
     function populateList(plates, plateList) {
         //add input value to items list
         plateList.html(plates.map(function (plate, i) {
+            var isChecked =  plate.done ? 'checked="checked" ' : '';
             return '<li>' +
-                '<input type="checkbox" class="checkbox" data-index=' + i + ' id=' + 'item' + i +
+                '<input type="checkbox" class="checkbox" data-index="' + i + '" id="' + 'item' + i + '" ' +
+                    isChecked + '>'+
                 //dokonczyc!!!
-                ' '+ plate.done+ '>' +
                 '<label for="' + 'item' + i + '">' + plate.text + '</label>' +
                 '</li>';
-        }).join());
+        }).join(''));
     }
     
     function toggleDone(e) {
