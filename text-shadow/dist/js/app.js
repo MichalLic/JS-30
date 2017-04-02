@@ -1,0 +1,2 @@
+function followShadow(o){var t=shadow.offsetWidth,a=shadow.offsetHeight,w=o.offsetX,d=o.offsetY;this!==o.target&&(w+=o.target.offsetLeft,d+=o.target.offsetTop);var h=Math.round(w/t*walk-walk/2),s=Math.round(d/a*walk-walk/2);shadowWord.css("text-shadow",h+"px "+s+"px 0 #767676")}var shadow=$(".shadow")[0],shadowWord=$(".shadow-word"),walk=300,windowHeight=$(window).height();$(".shadow").css("height",windowHeight+"px"),shadow.addEventListener("mousemove",followShadow);
+//# sourceMappingURL=app.js.map

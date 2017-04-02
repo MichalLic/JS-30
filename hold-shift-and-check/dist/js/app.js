@@ -1,0 +1,2 @@
+function shiftCheckboxes(e){e.on("click",function(e){var c=!1,h=this;e.shiftKey&&this.checked&&$.each(getCheckbox,function(e,o){o!==h&&o!==lastChecked||(c=!c),c&&(o.checked=!0)}),lastChecked=this})}var checkboxes=$(".checkboxes");console.log(checkboxes);var getCheckbox=$('input[type="checkbox"]');console.log(getCheckbox);var lastChecked="";shiftCheckboxes($("input"));
+//# sourceMappingURL=app.js.map
