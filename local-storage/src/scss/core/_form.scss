@@ -10,7 +10,9 @@ input {
 
   }
   &.checkbox {
-    margin: 5px;
+    margin: 0 5px;
+    width: 18px;
+    height: 18px;
   }
 
   &.submit {
@@ -20,4 +22,8 @@ input {
       background-color: darken(#f1f1f1, 45%);
     }
   }
+}
+
+label {
+  font-size: 19px;
 }

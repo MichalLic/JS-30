@@ -32,7 +32,9 @@
 
     li {
       border-bottom: 1px solid #989898;
-      padding-bottom: 10px;
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
     }
   }
 
