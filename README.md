@@ -3,14 +3,15 @@
 Exercices mainly based on Javascript.
 
 Live preview: 
-https://michallic.github.io/JS-30/drum-kit/
 
-https://michallic.github.io/JS-30/flex-gallery/
+Drum Kit: https://michallic.github.io/JS-30/drum-kit/
 
-https://michallic.github.io/JS-30/hold-shift-and-check/
+Flex Panels Image Gallery: https://michallic.github.io/JS-30/flex-gallery/
 
-https://michallic.github.io/JS-30/local-storage/
+Hold Shift to Check Multiple Checkboxes: https://michallic.github.io/JS-30/hold-shift-and-check/
 
-https://michallic.github.io/JS-30/sticky-nav/
+LocalStorage and Event Delegation: https://michallic.github.io/JS-30/local-storage/
 
-https://michallic.github.io/JS-30/text-shadow/
+Sticky nav: https://michallic.github.io/JS-30/sticky-nav/
+
+CSS Text Shadow Mouse Move Effect: https://michallic.github.io/JS-30/text-shadow/
