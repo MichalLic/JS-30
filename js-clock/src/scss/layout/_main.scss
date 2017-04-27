@@ -33,6 +33,8 @@
       position: absolute;
       top: 50%;
       right: 50%;
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.55, 2.7, 0.58, 1)
 
     }
 
