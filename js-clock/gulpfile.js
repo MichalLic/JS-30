@@ -4,13 +4,10 @@ var PATH = {
     js_vendor: [
         './node_modules/jquery/dist/jquery.min.js'
     ],
-    css_vendor: [
-        //'./node_modules/bulma/css/bulma.css'
-    ],
     DIST: './dist',
     static: [
         './src/index.html',
-        './src/images/*.jpg'
+        './src/images/**'
     ]
 };
 
