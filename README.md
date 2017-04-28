@@ -17,3 +17,5 @@ Sticky nav: https://michallic.github.io/JS-30/sticky-nav/
 CSS Text Shadow Mouse Move Effect: https://michallic.github.io/JS-30/text-shadow/
 
 CSS/JS Clock: https://michallic.github.io/JS-30/js-clock/
+
+Update CSS by JS https://michallic.github.io/JS-30/css-variables/
