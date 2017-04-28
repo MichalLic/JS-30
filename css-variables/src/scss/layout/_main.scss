@@ -1,0 +1,23 @@
+.controls {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+
+  .single-control {
+    align-items: center;
+    display: flex;
+  }
+
+  input {
+    margin: 0 5px;
+  }
+}
+
+.img-block {
+  img {
+    max-width: 100%;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+  }
+}
