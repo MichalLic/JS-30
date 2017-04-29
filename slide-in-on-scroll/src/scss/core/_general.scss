@@ -1,0 +1,46 @@
+*, :after, :before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20.4px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.on-left {
+  float: left;
+  margin: 20px 20px 20px 0;
+
+  &.slide-in {
+    transform: translateX(-30%) scale(0.95);
+  }
+}
+
+.on-right {
+  float: right;
+  margin: 20px 0 20px 20px;
+
+  &.slide-in {
+    transform: translateX(30%) scale(0.95);
+  }
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
