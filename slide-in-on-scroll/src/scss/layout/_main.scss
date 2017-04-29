@@ -1,9 +1,19 @@
 main {
-  background-color: #f4deb3;
+  background-color: $color-brown;
 
   .secret-content {
-    background-color: #ffffff;
+    background-color: $color-white;
     margin: 100px;
     padding: 50px;
+
+    @media all and (max-width: $bp-md) {
+      margin: 50px;
+    }
+  }
+
+  @media all and(max-width: $bp-md) {
+    img {
+      width: 50%;
+    }
   }
 }
