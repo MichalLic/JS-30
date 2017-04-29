@@ -18,4 +18,6 @@ CSS Text Shadow Mouse Move Effect: https://michallic.github.io/JS-30/text-shadow
 
 CSS/JS Clock: https://michallic.github.io/JS-30/js-clock/
 
-Update CSS by JS https://michallic.github.io/JS-30/css-variables/
+Update CSS by JS: https://michallic.github.io/JS-30/css-variables/
+
+Slide in on scroll: https://michallic.github.io/JS-30/slide-in-on-scroll
