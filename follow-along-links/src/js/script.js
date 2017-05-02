@@ -11,8 +11,6 @@ function highlightLink() {
         top: linkcoords.top + window.scrollY,
         left: linkcoords.left + window.scrollX
     };
-    console.log(this);
-    console.log(linkcoords);
     highlight.style.width = coords.width + 'px';
     highlight.style.height = coords.height + 'px';
 

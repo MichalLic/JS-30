@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-repeat: no-repeat;
   background-image: url(../images/flowers.jpeg);
   background-size: cover;
@@ -25,12 +25,22 @@ body{
   justify-content: space-between;
 }
 
-.highlight{
+.highlight {
   transition: all 0.2s;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: antiquewhite;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -1;
   border-radius: 10px;
   display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hide {
+  display: none;
 }
