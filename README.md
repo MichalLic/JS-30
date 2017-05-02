@@ -22,4 +22,4 @@ Update CSS by JS: https://michallic.github.io/JS-30/css-variables/
 
 Slide in on scroll: https://michallic.github.io/JS-30/slide-in-on-scroll
 
-Follow along link: https://michallic.github.io/JS-30/follow-along-links
+Follow along links: https://michallic.github.io/JS-30/follow-along-links
