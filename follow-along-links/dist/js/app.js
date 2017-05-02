@@ -1,0 +1,2 @@
+function highlightLink(){const t=this.getBoundingClientRect(),h={width:t.width,height:t.height,top:t.top+window.scrollY,left:t.left+window.scrollX};highlight.style.width=h.width+"px",highlight.style.height=h.height+"px",highlight.style.transform="translate("+h.left+"px ,"+h.top+"px)"}const triggers=document.querySelectorAll("a"),highlight=document.createElement("span");highlight.classList.add("highlight"),document.body.append(highlight),triggers.forEach(function(t){t.addEventListener("mouseenter",highlightLink)});
+//# sourceMappingURL=app.js.map

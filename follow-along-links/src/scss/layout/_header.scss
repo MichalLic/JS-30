@@ -1,0 +1,55 @@
+header {
+  background-color: rgba(255, 255, 255, 0.2);
+
+  @media all and (max-width: $bp-md) {
+    .logo-block {
+      display: flex;
+      align-items: center;
+
+      img {
+        max-width: 100%
+      }
+    }
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+  ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+
+    li {
+      text-align: center;
+      padding-bottom: 7px;
+
+      a {
+        padding: 5px 10px;
+
+      }
+
+      @media all and (min-width: $bp-s + 1) and (max-width: $bp-lg) {
+        font-size: 13px;
+        flex-basis: 33.333%;
+      }
+
+      @media all and (min-width: $bp-xs + 1) and (max-width: $bp-s) {
+        font-size: 11px;
+        flex-basis: 50%;
+
+      }
+
+      @media all and (max-width: $bp-xs) {
+        font-size: 9px;
+        flex-basis: 50%;
+
+      }
+    }
+
+  }
+}

@@ -1,0 +1,46 @@
+*, :after, :before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url(../images/flowers.jpeg);
+  background-size: cover;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20.4px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight {
+  transition: all 0.2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -1;
+  border-radius: 10px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hide {
+  display: none;
+}
