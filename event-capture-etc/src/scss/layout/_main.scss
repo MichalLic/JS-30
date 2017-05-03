@@ -1,0 +1,31 @@
+main{
+  background-color: #a4c5e8;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+
+  div {
+    flex-basis: 100%;
+    padding: 40px;
+  }
+
+  .one {
+    background-color: #275E99;
+  }
+
+  .two {
+    background-color: #213857;
+  }
+
+  .three {
+    background-color: #6D819D;
+  }
+
+  .four {
+    background: #ffffff;
+  }
+
+  .five {
+    background-color: #0049B2;
+  }
+}
