@@ -25,3 +25,5 @@ Slide in on scroll: https://michallic.github.io/JS-30/slide-in-on-scroll
 Follow along links: https://michallic.github.io/JS-30/follow-along-links
 
 Event Capture, Propagation, Bubbling and Once: https://michallic.github.io/JS-30/event-capture-etc
+
+Click and Drag to Scroll: https://michallic.github.io/JS-30/click-and-drag
