@@ -1,2 +1,2 @@
-
+const slider=document.querySelector(".cards");var isDown=!1,startX,scrollLeft;slider.addEventListener("mousedown",function(e){isDown=!0,slider.classList.add("active"),startX=e.pageX-slider.offsetLeft,scrollLeft=slider.scrollLeft}),slider.addEventListener("mouseleave",function(){isDown=!1,slider.classList.remove("active")}),slider.addEventListener("mouseup",function(){isDown=!1,slider.classList.remove("active")}),slider.addEventListener("mousemove",function(e){if(isDown){e.preventDefault();const s=e.pageX-slider.offsetLeft,t=2*(s-startX);slider.scrollLeft=scrollLeft-t}});
 //# sourceMappingURL=app.js.map
