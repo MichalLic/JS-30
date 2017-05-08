@@ -1,0 +1,16 @@
+.bands-section{
+  height: 100vh;
+  background-image: url("../images/img.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #bands{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    li{
+      padding: 10px 20px;
+    }
+  }
+}
