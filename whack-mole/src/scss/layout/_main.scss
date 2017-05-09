@@ -6,17 +6,30 @@
 
   .hole {
     background-image: url("../images/molehill.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    height:150px;
+    height: 150px;
     margin: 150px 5px 0 5px;
     flex-basis: calc(33.333% - 15px);
+    position: relative;
+
+    &.up .mole {
+      top: -84%;
+    }
 
     .mole {
-      background-image: url("../images/mole2.png");
-      background-size: cover;
+      background-image: url("../images/mole.png");
       background-repeat: no-repeat;
+      background-size: 36%;
+      background-position: 47%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      transition: all 0.4s;
+
     }
   }
 }
