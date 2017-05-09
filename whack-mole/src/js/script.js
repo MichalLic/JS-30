@@ -21,7 +21,7 @@ function randomHole(holes) {
 }
 
 function jumpOut() {
-    const time = randTime(200, 1000);
+    const time = randTime(300, 1100);
     const hole = randomHole(holes);
     console.log(time, hole);
     hole.classList.add('up');
@@ -37,10 +37,10 @@ function startGame() {
     jumpOut();
     setTimeout(function () {
         timeUp = true;
-    }, 2000);
+    }, 15000);
 }
 
-function bonk (e) {
+function bonk(e) {
     if (!e.isTrusted) return;
     score++;
     this.classList.remove('up');
