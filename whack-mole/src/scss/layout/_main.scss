@@ -1,0 +1,67 @@
+.playground {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 700px;
+
+  @media all and (max-width: $bp-s-max) {
+    height: 500px;
+  }
+
+  .hole {
+    display: flex;
+    margin: 150px 5px 0 5px;
+    position: relative;
+    flex-basis: calc(33.333% - 15px);
+
+    &:after {
+      content: '';
+      background-image: url("../images/molehill.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      height: 160px;
+      width: 100%;
+    }
+
+    &.up .mole {
+      top: -66%;
+
+      @media all and (max-width: $bp-s-max) {
+        top: -71%;
+      }
+
+      @media all and (min-width: $bp-md-min) and (max-width: $bp-md-max) {
+        top: -48%;
+      }
+    }
+
+    .mole {
+      background-image: url("../images/mole.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 47%;
+      position: absolute;
+      top: 4%;
+      height: 150px;
+      width: 150px;
+      left: calc(50% - 75px);
+      cursor: pointer;
+      transition: all 0.4s;
+
+      @media all and (max-width: $bp-s-max) {
+        width: 80px;
+        height: 80px;
+        top: 0;
+        left: calc(50% - 40px);
+      }
+      @media all and (min-width: $bp-md-min) and (max-width: $bp-md-max) {
+        width: 108px;
+        height: 108px;
+        top: 0%;
+        left: calc(50% - 54px);
+      }
+    }
+  }
+}
