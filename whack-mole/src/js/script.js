@@ -13,7 +13,6 @@ function randomHole(holes) {
     const index = Math.floor(Math.random() * holes.length);
     const hole = holes[index];
     if (hole === lastHole) {
-        console.log('bylo juz...');
         return randomHole(holes);
     }
     lastHole = hole;
@@ -28,7 +27,7 @@ function jumpOut() {
     setTimeout(function () {
         hole.classList.remove('up');
         if (!timeUp) jumpOut();
-    }, time)
+    }, time);
 }
 
 function startGame() {
@@ -43,8 +42,8 @@ function startGame() {
 
 function bonk(e) {
     if (!e.isTrusted) return;
+    $(this).parent().removeClass('up');
     score++;
-    this.classList.remove('up');
     scoreBoard.textContent = score;
 }
 
