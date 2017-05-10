@@ -33,3 +33,5 @@ Stripe Follow Along Dropdown: https://michallic.github.io/JS-30/follow-along-dro
 Sorting Band Names without articles: https://michallic.github.io/JS-30/sorting-bands
 
 Array Cardio 1: https://michallic.github.io/JS-30/array-cardio1
+
+Whack a mole game: https://michallic.github.io/JS-30/whack-mole
