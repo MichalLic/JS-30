@@ -24,6 +24,14 @@
 
     &.up .mole {
       top: -66%;
+
+      @media all and (max-width: 800px) {
+        top: -54%;
+      }
+
+      @media all and (min-width: 801px) and (max-width: 1150px) {
+        top: -58%;
+      }
     }
 
     .mole {
@@ -39,6 +47,14 @@
       cursor: pointer;
       transition: all 0.4s;
 
+      @media all and (max-width: 800px) {
+        background-size: 55%;
+        top: -16%;
+      }
+      @media all and (min-width: 801px) and (max-width: 1150px) {
+        background-size: 70%;
+        top: -10%;
+      }
     }
   }
 }

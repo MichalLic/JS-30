@@ -33,6 +33,7 @@ function jumpOut() {
 
 function startGame() {
     scoreBoard.textContent = 0;
+    score = 0;
     timeUp = false;
     jumpOut();
     setTimeout(function () {
